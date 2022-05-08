@@ -59,24 +59,21 @@
      1 2 3
      1 2
      1*/
-        /*var i,j,k;
-	    for (i=1;i<=5;i++) {
-	  
-	    for (j=1;j<=5-i;j++) {
-	   
-	   document.write(" ");
-	}
-		for (k=1;k<=2*i-1;k++){
+      var i,j,k, rows=5;
+        for(i=1; i<=rows; i++)
+        {
+            for(k=1; k<=(rows-i); k++)
+            {
+                document.write("&nbsp");
+            }
+            for(j=1; j<=i; j++)
+            {
+            document.write("*");
+            }
+            document.write("<br>")
+        }  
 	
-		
-			document.write(" "+k);
 
-		
-		}
-		
-       document.write("<br>");
-	
-        }*/
         		
 
 </script>
